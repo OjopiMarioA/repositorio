@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+ }
+ .gameboard {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+ }
+ .color {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+ }
+ .celeste { background-color: lightblue; }
+ .violeta { background-color: purple; }
+ .naranja { background-color: orange; }
+ .verde { background-color: green; }
+ .btn-start {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+ 
